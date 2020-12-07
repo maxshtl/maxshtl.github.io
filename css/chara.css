@@ -1,0 +1,172 @@
+.character-info {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.character {
+    display: flex;
+    align-items: center;
+}
+
+.photo {
+    margin-bottom: -100px;
+}
+.prev, .next{
+    margin: 0 15px;
+}
+#prevCharacter, #nextCharacter{
+    align-items: center;
+    justify-content: center;
+}
+.character li a, .character li a:visited {
+    color: #C4C4C4;
+    font-size: 36pt;
+}
+.desc h2 {
+    text-align: center;
+    font-size: 36pt;
+    font-family: "Montserrat-Bold", sans-serif;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #C4C4C4;
+    padding-bottom: 20px;
+}
+
+.desc p {
+    text-align: justify;
+    font-size: 14pt;
+    margin-top: 20px;
+}
+
+.nameline {
+    background-color: #C4C4C4;
+    margin-top: -5vw;
+    width: 100%;
+    height: 4.6vw;
+}
+
+.nameline div {
+    color: #393939;
+    font-size: 4vw;
+    font-family: "Montserrat-Bold", sans-serif;
+    text-align: right;
+    padding: 1.4vw 17vw 0 0;
+}
+
+.all-characters {
+    margin: 10% 0;
+}
+
+.character-list {
+    display: flex;
+    margin-top: 10px;
+    padding: 0;
+    justify-content: center;
+}
+
+.character-list li img {
+    width: 100%;
+}
+
+.character-list li a div {
+    margin-top: -50px;
+}
+
+.character-list li a, .character-list li a:visited {
+    text-transform: uppercase;
+    font-family: "Montserrat-Medium", sans-serif;
+    text-align: center;
+    font-size: 14pt;
+    color: #C4C4C4;
+}
+
+.character > li:first-child:hover {
+    animation: an 1.2s infinite;
+}
+
+.character > li:last-child:hover {
+    animation: an 1.2s infinite;
+}
+
+.character-list li img:hover {
+    animation: an 1.2s infinite;
+}
+
+@keyframes an {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.7);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .character-list li a div {
+        margin-top: -30px;
+    }
+    .photo img{
+        width: 36vw;
+    }
+    .desc h2 {
+        font-size: 24pt;
+    }
+
+    .desc p {
+        font-size: 14pt;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .photo img{
+        width: 30vw;
+    }
+    .desc h2, .character li a, .character li a:visited  {
+        font-size: 18pt;
+    }
+
+    .desc p, .character-list li a, .character-list li a:visited{
+        font-size: 10pt;
+    }
+    .nameline {
+        margin-top: -1vw;
+    }
+    #nextCharacter, #prevCharacter {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .character-list li a div {
+        margin-top: -20px;
+    }
+    .photo img{
+        width: 25vw;
+    }
+    .desc h2, .character li a, .character li a:visited  {
+        font-size: 14pt;
+    }
+    .desc p, .character-list li a, .character-list li a:visited{
+        font-size: 8pt;
+    }
+    .nameline {
+        margin-top: 5vw;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .desc h2, .character li a, .character li a:visited  {
+        font-size: 10pt;
+    }
+
+    .desc p, .character-list li a, .character-list li a:visited{
+        font-size: 6pt;
+    }
+    .nameline {
+        margin-top: 8vw;
+    }
+}

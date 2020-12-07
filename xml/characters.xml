@@ -1,0 +1,94 @@
+<?xml version='1.0'?>
+<doc>
+    <character id="mob" order="0">
+        <name>Shigeo Kageyama</name>
+        <shortName>MOB</shortName>
+        <description>An 8th grader known as “MOB”. He has psychic powers strong enough to destroy an organization known
+            as “Claw” with world domination in mind. He is not much of a talker and cannot blend in with the crowd.
+            Looks up to Reigen as his “Master” since he advised him on how to treat his dangerous psychic powers. Since
+            then, he has been worshiped as the leader of cult religious group known as “Psycho Helmet” and being feared
+            by the local delinquent as “White-T Poison”. However, he doesn’t mind anything at all.
+        </description>
+        <icon>img/chara_icons/mob.png</icon>
+        <image>img/characters/mob.png</image>
+    </character>
+    <character id="reigen" order="1">
+        <name>Reigen Arataka</name>
+        <shortName>REIGEN</shortName>
+        <description>Self-proclaimed psychic who owns a psychic counselling shop known as “Sporit and Such”.
+            However his real talent lies in the art of conversation as he has no actual psychic powers. When things are
+            too much for him to handle, he calls his assistant, MOB to deal with it. He also watches over MOB and
+            support him mentally. He can now see higher evil-spirit Ekubo after the incident with the seventh division
+            of the “Claw”.
+        </description>
+        <icon>img/chara_icons/reigen.png</icon>
+        <image>img/characters/reigen.png</image>
+    </character>
+    <character id="ekubo" order="2">
+        <name>Ekubo</name>
+        <shortName>EKUBO</shortName>
+        <description>A higher evil-spirit who had the ambition on becoming God. He can take over the bodies of people
+            and move them accordingly. He met MOB when he set up a dubious religious cult called “LOL”. Since then, he
+            believes that MOB is the true God material and spends time with him ever since. Even though he is after MOB
+            and his immense powers, he tends to lend a hand to him when he needs. Although he tries to be evil, he is
+            good in general.
+        </description>
+        <icon>img/chara_icons/ekubo.png</icon>
+        <image>img/characters/ekubo.png</image>
+    </character>
+    <character id="ritsu" order="3">
+        <name>Ritsu Kageyama</name>
+        <shortName>RITSU</shortName>
+        <description>MOB’s younger brother who is in the school council and good in both school and sports. He is also
+            sociable, which is the opposite of MOB. He always feared and envied his brother since he witnessed MOB’s
+            power getting out of control, His psychic powers were awoken by the “School Reform” incident conducted by
+            student council president, Kamuro. As MOB is somewhat naïve, he supports him closely.
+        </description>
+        <icon>img/chara_icons/ritsu.png</icon>
+        <image>img/characters/ritsu.png</image>
+    </character>
+    <character id="teru" order="4">
+        <name>Teruki Hanazawa</name>
+        <shortName>TERU</shortName>
+        <description>He is another psychic, whom once stood before MOB as the delinquent leader of Black-Vinegar Junior
+            High. However, he has the tendency to become pigeon legged when he uses his powers. He has grown mentally
+            since the battle with MOB and when Ritsu is taken by the seventh division, he accompanied MOB to rescue him.
+            They both fought fierce battles with the high ranked members. He is now a loyal friend and has healthy
+            rivalry with MOB. His nickname is “Teru”.
+        </description>
+        <icon>img/chara_icons/teru.png</icon>
+        <image>img/characters/teru.png</image>
+    </character>
+    <character id="tsubomi" order="5">
+        <name>Tsubomi</name>
+        <shortName>TSUBOMI</shortName>
+        <description>MOB’s childhood friend, who he has a crush on, She is adored by her school friends for her charming
+            looks. Mob has joined Body Improvement Club in order for her to like him. Tempted by Mezato, Mob even tries
+            for the school student presidency! Does she know how much effort he puts in to be perfect for her?
+        </description>
+        <icon>img/chara_icons/tsubomi.png</icon>
+        <image>img/characters/tsubomi.png</image>
+    </character>
+    <character id="shou" order="6">
+        <name>Shou Suzuki</name>
+        <shortName>SHOU</shortName>
+        <description>A mysterious boy whom Ritsu met when he was abducted by the seventh division of the “Claw”. His
+            ostensible purpose was to participate in a training session but his real purpose was to head hunt for his
+            team. He had been interested in MOB and Ritsu from early one. He is also a powerful psychic himself.
+        </description>
+        <icon>img/chara_icons/shou.png</icon>
+        <image>img/characters/shou.png</image>
+    </character>
+    <character id="mezato" order="7">
+        <name>Ichi Mezato</name>
+        <shortName>MEZATO</shortName>
+        <description>She is the member of the school news club. She is always looking for a big news with her camera
+            around her neck. She first met MOB when she attended the cult religion “LOL” meeting undercover. She notices
+            his psychic powers and been trying to expose his secret ever since. She has persuaded MOB to compete for the
+            school student presidency, however…
+        </description>
+        <icon>img/chara_icons/mezato.png</icon>
+        <image>img/characters/mezato.png</image>
+    </character>
+
+</doc>

@@ -1,0 +1,158 @@
+.poster {
+    width: 100%;
+}
+
+.intro {
+    background: url(../img/other/black.png) center top / cover;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    align-items: center;
+}
+
+.video {
+	align-items: center;
+    justify-content: center;
+    padding: 15%;
+    position: relative;
+    z-index: 0;
+}
+.video video{
+    position: absolute;
+    min-width: 100vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.on-video {
+    background: #000;
+    opacity: 0.7;
+    text-align: center;
+    align-items: center;
+    padding: 5%;
+    position: relative;
+    z-index: 2;
+}
+
+.on-video h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 36pt;
+    font-family: "Montserrat-Bold", sans-serif;
+}
+
+.on-video p {
+    text-align: justify;
+    padding: 0;
+    font-size: 24pt;
+    margin: 0;
+}
+
+.watch {
+    position: relative;
+    display: flex;
+    margin: 10% 0;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.crunch a, .crunch a:visited {
+    text-align: center;
+    font-size: 22pt;
+    text-decoration: underline;
+    line-height: 200%;
+    font-family: "Montserrat-Bold", sans-serif;
+    text-transform: uppercase;
+    color: #C4C4C4;
+}
+
+.twitter {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.widget img {
+    margin-left: -80px;
+}
+
+.big-logo {
+    width: 50%;
+}
+
+@media screen and (max-width: 1199px) {
+    .on-video h2 {
+        font-size: 24pt;
+    }
+
+    .on-video p {
+        font-size: 16pt;
+    }
+
+    .crunch a, .crunch a:visited {
+        font-size: 16pt;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .on-video h2 {
+        font-size: 20pt;
+    }
+
+    .on-video p {
+        font-size: 12pt;
+    }
+
+    .widget, .widget img {
+        width: 40vw;
+    }
+
+    .widget img {
+        margin-left: -10%;
+    }
+
+    .crunch a, .crunch a:visited {
+        font-size: 12pt;
+    }
+
+    .watch iframe {
+        width: 50%;
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .on-video h2 {
+        font-size: 18pt;
+    }
+
+    .on-video p {
+        font-size: 10pt;
+    }
+
+    .crunch a, .crunch a:visited {
+        font-size: 10pt;
+    }
+
+    .watch iframe {
+        width: 50%;
+        height: 20vh;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .on-video h2 {
+        font-size: 14pt
+    }
+
+    .on-video p {
+        font-size: 8pt;
+    }
+
+    .crunch a, .crunch a:visited {
+        font-size: 9pt;
+    }
+}

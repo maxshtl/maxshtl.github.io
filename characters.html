@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Characters</title>
+    <link href="css/cleaning.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/chara.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/character.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="mouseSpirit"><img alt="spirit" src="img/cursors/icon.png"></div>
+<header class="header">
+    <div class="container">
+        <nav class="nav">
+            <img alt="mob psycho 100" class="logo" src="img/icons/LOGO.svg">
+            <ul class="menu">
+                <li>
+                    <a href="index.html">MAIN</a>
+                </li>
+                <li>
+                    <a href="characters.html">CHARACTERS</a>
+                </li>
+                <li>
+                    <a href="about.html">MORE</a>
+                </li>
+            </ul>
+            <img alt="salt" class="salt" src="img/cursors/off_btn.png">
+        </nav>
+    </div>
+</header>
+<div class="container">
+    <div class="character-info">
+        <ul class="character">
+            <li>
+                <a id="prevCharacter">
+                    <div class="prev">&#9668;</div>
+                </a>
+            </li>
+            <li class="photo" id="characterImageContainer">
+            </li>
+            <li class="descriprion">
+                <div class="desc">
+                    <div>
+                        <h2 id="characterName"></h2>
+                    </div>
+                    <p id="characterDescription"></p>
+                </div>
+            </li>
+            <li>
+                <a id="nextCharacter">
+                    <div class="next">&#9658;</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<section class="nameline">
+    <div id="characterShortName"></div>
+</section>
+<div class="container">
+    <div class="all-characters" id="charactersList">
+    </div>
+</div>
+<footer class="footer">
+    <div>
+        Rykhlionak Anastasia BSTU 2 FIT 11
+    </div>
+</footer>
+</body>
+<script src="js/follow-spirit.js"></script>
+</html>
