@@ -1,0 +1,18 @@
+<?xml version='1.0'?>
+<doc>
+    <author>
+        <name>Rykhlionak Anastasia</name>
+        <university>BSTU</university>
+        <course>2</course>
+        <faculty>FIT</faculty>
+        <group>11</group>
+        <city>11</city>
+        <year>2020</year>
+    </author>
+    <anime>
+        <title>Mob Psycho 100</title>
+        <studio>Studio Bones</studio>
+        <city>Tokio</city>
+        <year>2016</year>
+    </anime>
+</doc>
