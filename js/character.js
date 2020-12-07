@@ -8,10 +8,9 @@ function loadCharacters(xml) {
         const shortName = $(this).find('shortName').text();
         const icon = $(this).find('icon').text();
 
-        if ($(document).innerWidth < $(document).innerHeight && index % 2 === 0) {
-            $charactersList.append('<ul class="character-list"></ul>');
-        }
-        else if ($(document).innerWidth > $(document).innerHeight && index % 4 === 0) {
+        const vertical = $(window).width() < $(window).height();
+
+        if (vertical && (index % 2 === 0) || !vertical && (index % 4 === 0)) {
             $charactersList.append('<ul class="character-list"></ul>');
         }
         const namePart = name.split(' ');
