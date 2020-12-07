@@ -139,7 +139,7 @@ ul, li {
         margin: 0 auto;
     }
 
-    #mouseSpirit {
+    #mouseSpirit, .header {
         display: none;
     }
 }
