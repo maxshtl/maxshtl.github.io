@@ -66,6 +66,7 @@ function subscribe(xml) {
     window.onpopstate = function () {
         const hash = window.location.hash.substr(1);
         loadMainCharacter(hash, xml);
+        window.scrollTo({top: 0, behavior: 'smooth'});
     }
 }
 
