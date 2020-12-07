@@ -127,7 +127,7 @@
 
 @media screen and (max-width: 575px) {
     .carousel {
-        height: 70vw;
+        height: 320px;
     }
 
     .screenshots h2, .video h2, h2 {
