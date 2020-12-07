@@ -89,7 +89,7 @@
 
 @media screen and (max-width: 1199px) {
     .carousel {
-        height: 60vh;
+        height: 60vw;
     }
 
     .screenshots h2, .video h2, h2 {
@@ -99,7 +99,7 @@
 
 @media screen and (max-width: 1024px) {
     .carousel {
-        height: 50vh;
+        height: 50vw;
     }
 
     .screenshots h2, .video h2, h2 {
@@ -109,7 +109,7 @@
 
 @media screen and (max-width: 767px) {
     .carousel {
-        height: 40vh;
+        height: 40vw;
     }
 
     .screenshots{
@@ -127,7 +127,7 @@
 
 @media screen and (max-width: 575px) {
     .carousel {
-        height: 30vw;
+        height: 50vw;
     }
 
     .screenshots h2, .video h2, h2 {
