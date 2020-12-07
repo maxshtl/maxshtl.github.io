@@ -173,4 +173,7 @@
     .desc h2  {
         font-size: 24pt;
     }
+    .desc p, .character-list li a, .character-list li a:visited{
+        font-size: 3vw;
+    }
 }
