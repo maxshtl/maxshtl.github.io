@@ -36,13 +36,34 @@ ul, li {
 }
 
 .header {
-    background-color: #C4C4C4;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 60px;
     color: #393939;
     font-family: "Montserrat-Bold", sans-serif;
     text-transform: uppercase;
     justify-content: space-between;
+    z-index: 50;
+    display: flex;
+}
+.header:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #C4C4C4;
+    z-index: 3;
+}
+.header-burger{
+    display: none;
+}
+.nav{
+    position: relative;
+    z-index: 3;
 }
 
 .menu {
@@ -123,13 +144,86 @@ ul, li {
     .container {
         width: 540px;
     }
-
-    #mouseSpirit {
+    .header, .header:before{
+        background-color: transparent;
+    }
+    .menu li a, .menu li a:visited {
+        color: #C4C4C4;
+        font-size: 5vw;
+    }
+    #mouseSpirit, .salt, .logo {
         display: none;
     }
-
-    .menu li {
-        margin-right: 50px;
+    .header-burger{
+        display: block;
+        position: fixed;
+        width: 30px;
+        height: 20px;
+        z-index: 5;
+        top: 0;
+        right: 0;
+        margin: 5vw 5vw 0 0;
+        padding: 0;
+    }
+    .header-burger span{
+        position: absolute;
+        background-color: #C4C4C4;
+        right: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+        z-index: 50;
+        transition: all 0.3s ease 0s;
+    }
+    .header-burger:before, .header-burger:after{
+        content: '';
+        background-color: #C4C4C4;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        right: 0;
+        transition: all 0.3s ease 0s;
+    }
+    .header-burger:before{
+        top: 0;
+    }
+    .header-burger:after{
+        bottom: 0;
+    }
+    .header-burger.active:before{
+        transform: rotate(45deg);
+        top: 9px;
+    }
+    .header-burger.active:after{
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+    .header-burger.active span{
+        transform: scale(0);
+    }
+    .nav{
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 0.95;
+        display: block;
+        z-index: 30;
+        transition: all 0.3s ease 0s;
+    }
+    .nav.active{
+        left: 0;
+    }
+    .menu{
+        display: block;
+        text-align: right;
+        padding: 50vw 0 0;
+    }
+    .menu li, .menu li:last-child {
+        margin: 0 5vw 10vw 0;
+        padding: 0;
     }
 }
 
@@ -139,7 +233,7 @@ ul, li {
         margin: 0 auto;
     }
 
-    #mouseSpirit, .header {
+    #mouseSpirit, .salt, .logo {
         display: none;
     }
 }

@@ -2,7 +2,7 @@
     position: relative;
     justify-content: space-between;
     padding: 0;
-    margin-top: 3%;
+    margin-top: 100px;
 }
 
 .screenshots h2 {
@@ -25,7 +25,7 @@
     left: 0;
     justify-content: space-between;
     width: 100%;
-    z-index: 99999;
+    z-index: 10;
     transition: all ease 0.5s;
 }
 
@@ -78,7 +78,12 @@
 
 .mob-logo {
     margin: 50px auto;
+    display: flex;
+    justify-content: center;
     opacity: .5;
+}
+.mob-logo img {
+    width: 30vw;
 }
 
 
@@ -107,6 +112,10 @@
         height: 40vh;
     }
 
+    .screenshots{
+        margin-top: 5vw;
+    }
+
     .screenshots h2, .video h2, h2 {
         font-size: 18pt;
     }
@@ -118,7 +127,7 @@
 
 @media screen and (max-width: 575px) {
     .carousel {
-        height: 30vh;
+        height: 30vw;
     }
 
     .screenshots h2, .video h2, h2 {
@@ -126,12 +135,12 @@
     }
 
     .youtube {
-        justify-content: space-around;
+        flex-wrap: wrap;
     }
 
     .youtube iframe {
-        width: 45%;
-        height: 50%;
+        width: 100%;
+        margin-bottom: 5vw;
     }
 
     .mob-logo {

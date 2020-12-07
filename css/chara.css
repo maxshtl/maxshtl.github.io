@@ -2,7 +2,7 @@
     display: flex;
     text-align: center;
     justify-content: space-between;
-    margin-top: 5%;
+    margin-top: 100px;
 }
 .character {
     display: flex;
@@ -121,6 +121,9 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .character-info{
+        margin-top: 80px;
+    }
     .photo img{
         width: 30vw;
     }
@@ -141,32 +144,33 @@
 }
 
 @media screen and (max-width: 767px) {
-    .character-list li a div {
-        margin-top: -20px;
+    .character {
+        flex-wrap: wrap;
+        justify-content: center;
     }
-    .photo img{
-        width: 25vw;
+    #prevCharacter, #nextCharacter {
+        display: none;
     }
-    .desc h2, .character li a, .character li a:visited  {
-        font-size: 14pt;
+    .photo img, .desc {
+        width: 100%;
+    }
+    .desc h2 {
+        font-size: 34pt;
+        margin-top: 80px;
     }
     .desc p, .character-list li a, .character-list li a:visited{
-        font-size: 8pt;
+        font-size: 3vw;
     }
     .nameline {
-        margin-top: 5vw;
+        display: none;
+    }
+    .character-list li a div {
+        margin-top: -20px;
     }
 }
 
 @media screen and (max-width: 575px) {
-    .desc h2, .character li a, .character li a:visited  {
-        font-size: 10pt;
-    }
-
-    .desc p, .character-list li a, .character-list li a:visited{
-        font-size: 6pt;
-    }
-    .nameline {
-        margin-top: 8vw;
+    .desc h2  {
+        font-size: 24pt;
     }
 }
